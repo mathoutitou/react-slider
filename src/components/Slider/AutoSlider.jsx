@@ -35,7 +35,7 @@ export default function AutoSlider() {
                 <p className="image-info">
                     {sliderData.find(obj => obj.id === sliderIndex).description}
                 </p>
-                <img src={`/images/img-${sliderIndex}.jpg`} alt="estate's rooms" className="slider-img"/>
+                <img src={`./images/img-${sliderIndex}.jpg`} alt="estate's rooms" className="slider-img"/>
                 <button
                     onClick={() => toggleImage(-1)}
                     className="navigation-button prev-button">
